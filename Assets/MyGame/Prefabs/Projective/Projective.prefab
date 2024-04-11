@@ -152,3 +152,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 5
   fore: {x: 0, y: 0}
+  Fxprojective: {fileID: 8038344524183138613, guid: 82cf9de2cb5479948ae468c24d88f381, type: 3}
