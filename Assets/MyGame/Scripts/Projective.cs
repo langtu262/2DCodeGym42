@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Projective : MonoBehaviour
 {
+    [SerializeField] float distansProjective;
     public int damage = 5;
     public Vector2 fore;
     [SerializeField] GameObject Fxprojective;
@@ -16,10 +17,10 @@ public class Projective : MonoBehaviour
             if (behemothAI != null)
             {
                 Instantiate(Fxprojective,transform.position, Quaternion.identity);
+                AudioManager.Instance.PlaySoundEffectMusic(AudioManager.Instance.explusion);
                 behemothAI.TakeDamage(damage, fore, gameObject);
                 Destroy(gameObject);
-            }
-                
+            }  
         }
     }
 }

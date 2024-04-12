@@ -2300,7 +2300,7 @@ Tilemap:
       - {fileID: 3786080894526622295, guid: ea3d66a7edd9d46d38e40be89ae8d3cf, type: 3}
       - {fileID: 5045660051849922305, guid: ea3d66a7edd9d46d38e40be89ae8d3cf, type: 3}
       - {fileID: 5612536237972652912, guid: ea3d66a7edd9d46d38e40be89ae8d3cf, type: 3}
-      m_AnimationSpeed: 20.606052
+      m_AnimationSpeed: 7.499035
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 0, y: -5, z: 0}
@@ -2311,7 +2311,7 @@ Tilemap:
       - {fileID: 3786080894526622295, guid: ea3d66a7edd9d46d38e40be89ae8d3cf, type: 3}
       - {fileID: 5045660051849922305, guid: ea3d66a7edd9d46d38e40be89ae8d3cf, type: 3}
       - {fileID: 5612536237972652912, guid: ea3d66a7edd9d46d38e40be89ae8d3cf, type: 3}
-      m_AnimationSpeed: 12.789147
+      m_AnimationSpeed: 6.2033696
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -1, y: -4, z: 0}
@@ -2322,7 +2322,7 @@ Tilemap:
       - {fileID: 7196270143389622831, guid: ea3d66a7edd9d46d38e40be89ae8d3cf, type: 3}
       - {fileID: 6029957480157117390, guid: ea3d66a7edd9d46d38e40be89ae8d3cf, type: 3}
       - {fileID: -2507161886035769597, guid: ea3d66a7edd9d46d38e40be89ae8d3cf, type: 3}
-      m_AnimationSpeed: 18.046244
+      m_AnimationSpeed: 29.248987
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 0, y: -4, z: 0}
@@ -2333,7 +2333,7 @@ Tilemap:
       - {fileID: 7196270143389622831, guid: ea3d66a7edd9d46d38e40be89ae8d3cf, type: 3}
       - {fileID: 6029957480157117390, guid: ea3d66a7edd9d46d38e40be89ae8d3cf, type: 3}
       - {fileID: -2507161886035769597, guid: ea3d66a7edd9d46d38e40be89ae8d3cf, type: 3}
-      m_AnimationSpeed: 29.616835
+      m_AnimationSpeed: 22.873573
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:
@@ -3774,10 +3774,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08073a64a575cb34ca46700e23419652, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backGrounds: []
+  backGrounds:
+  - {fileID: 8300000, guid: 2dac408fc456d2b40b64545fffb9cdb6, type: 3}
   click: {fileID: 0}
-  fireAudio: {fileID: 0}
-  explusion: {fileID: 0}
+  fireAudio: {fileID: 8300000, guid: 5d6448f044e21fc4d92222c46c41dccd, type: 3}
+  explusion: {fileID: 8300000, guid: 2355f4d79b7288b48b0c6acee9013024, type: 3}
   backgroundMusic: {fileID: 1703074132}
   soundFx: {fileID: 1703074131}
 --- !u!4 &1703074134

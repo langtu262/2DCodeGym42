@@ -23,13 +23,17 @@ public class PlayerFire : MonoBehaviour
             anim.SetTrigger(isAttackId);
             GameObject projevtive = Instantiate(projectivePrefabs, pointFire.position, Quaternion.identity );
             rb = projevtive.GetComponent<Rigidbody2D>();
-            if(transform.localScale.x==1)
+            if (rb != null)
             {
-                rb.AddForce(pointFire.right * projectiveFore,ForceMode2D.Impulse);
-            }
-            else
-            {
-                rb.AddForce(-pointFire.right * projectiveFore, ForceMode2D.Impulse);
+                AudioManager.Instance.PlaySoundEffectMusic(AudioManager.Instance.fireAudio);
+                if (transform.localScale.x == 1)
+                {
+                    rb.AddForce(pointFire.right * projectiveFore, ForceMode2D.Impulse);
+                }
+                else
+                {
+                    rb.AddForce(-pointFire.right * projectiveFore, ForceMode2D.Impulse);
+                }
             }
         }
     }

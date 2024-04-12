@@ -30,6 +30,7 @@ public class AudioManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
         else Destroy(gameObject);
+        BackGroundMusic(); 
     }
     public void PlayBackgroundMusic(AudioClip clip)
     {
